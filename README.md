@@ -26,3 +26,4 @@ special modify:
 - net/http/internal/http2: support non-tls.Conn TLS conn in forceCloseConn | https://go-review.googlesource.com/c/go/+/775409
 - net/http: fix Server's UnencryptedHTTP2 does not work TLS without ALPN | https://go-review.googlesource.com/c/go/+/775734
 - net/http: fix Transport's UnencryptedHTTP2 does not work TLS without ALPN | https://go-review.googlesource.com/c/go/+/776240
+- prevent HTTP/2 read loops from mistaking an underlying reader's StreamError for a stream error parsed on the current connection | https://github.com/golang/go/issues/80567

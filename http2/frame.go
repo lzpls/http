@@ -433,8 +433,32 @@ func (fc *frameCache) getDataFrame() *DataFrame {
 	return &fc.dataFrame
 }
 
+// frameReadError distinguishes errors returned by the Framer's reader from
+// stream errors produced while parsing the current HTTP/2 connection.
+type frameReadError struct {
+	err error
+}
+
+func (e frameReadError) Error() string { return e.err.Error() }
+func (e frameReadError) Unwrap() error { return e.err }
+
+type framerReader struct {
+	io.Reader
+}
+
+func (r framerReader) Read(p []byte) (n int, err error) {
+	n, err = r.Reader.Read(p)
+	if _, ok := err.(StreamError); ok {
+		err = frameReadError{err: err}
+	}
+	return n, err
+}
+
 // NewFramer returns a Framer that writes frames to w and reads them from r.
 func NewFramer(w io.Writer, r io.Reader) *Framer {
+	if r != nil {
+		r = framerReader{Reader: r}
+	}
 	fr := &Framer{
 		w:                 w,
 		r:                 r,

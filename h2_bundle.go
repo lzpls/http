@@ -1999,8 +1999,32 @@ func (fc *http2frameCache) getDataFrame() *http2DataFrame {
 	return &fc.dataFrame
 }
 
+// http2frameReadError distinguishes errors returned by the Framer's reader
+// from stream errors produced while parsing the current HTTP/2 connection.
+type http2frameReadError struct {
+	err error
+}
+
+func (e http2frameReadError) Error() string { return e.err.Error() }
+func (e http2frameReadError) Unwrap() error { return e.err }
+
+type http2framerReader struct {
+	io.Reader
+}
+
+func (r http2framerReader) Read(p []byte) (n int, err error) {
+	n, err = r.Reader.Read(p)
+	if _, ok := err.(http2StreamError); ok {
+		err = http2frameReadError{err: err}
+	}
+	return n, err
+}
+
 // NewFramer returns a Framer that writes frames to w and reads them from r.
 func http2NewFramer(w io.Writer, r io.Reader) *http2Framer {
+	if r != nil {
+		r = http2framerReader{Reader: r}
+	}
 	fr := &http2Framer{
 		w:                 w,
 		r:                 r,
