@@ -19,9 +19,7 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"github.com/metacubex/tls"
 	"go/token"
-	"golang.org/x/exp/slices"
 	"io"
 	"log"
 	mrand "math/rand"
@@ -39,11 +37,14 @@ import (
 	"testing/iotest"
 	"time"
 
-	. "github.com/metacubex/http"
-	"github.com/metacubex/http/httptest"
-	"github.com/metacubex/http/httptrace"
-	"github.com/metacubex/http/httputil"
-	"github.com/metacubex/http/internal/testcert"
+	"github.com/lzpls/tls"
+	"golang.org/x/exp/slices"
+
+	. "github.com/lzpls/http"
+	"github.com/lzpls/http/httptest"
+	"github.com/lzpls/http/httptrace"
+	"github.com/lzpls/http/httputil"
+	"github.com/lzpls/http/internal/testcert"
 
 	"golang.org/x/net/http/httpguts"
 )

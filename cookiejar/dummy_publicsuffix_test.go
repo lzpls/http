@@ -4,7 +4,7 @@
 
 package cookiejar_test
 
-import "github.com/metacubex/http/cookiejar"
+import "github.com/lzpls/http/cookiejar"
 
 type dummypsl struct {
 	List cookiejar.PublicSuffixList

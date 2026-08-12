@@ -18,8 +18,8 @@ import (
 
 	"github.com/google/pprof/profile"
 
-	"github.com/metacubex/http"
-	"github.com/metacubex/http/httptest"
+	"github.com/lzpls/http"
+	"github.com/lzpls/http/httptest"
 )
 
 // TestDescriptions checks that the profile names under runtime/pprof package

@@ -8,9 +8,10 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/metacubex/http"
 	"io"
 	"testing"
+
+	"github.com/lzpls/http"
 )
 
 func TestRecorder(t *testing.T) {

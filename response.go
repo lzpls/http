@@ -11,12 +11,13 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/metacubex/tls"
 	"io"
 	"net/textproto"
 	"net/url"
 	"strconv"
 	"strings"
+
+	"github.com/lzpls/tls"
 
 	"golang.org/x/net/http/httpguts"
 )

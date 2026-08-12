@@ -6,12 +6,13 @@ package cookiejar
 
 import (
 	"fmt"
-	"github.com/metacubex/http"
-	"golang.org/x/exp/slices"
 	"net/url"
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/lzpls/http"
+	"golang.org/x/exp/slices"
 )
 
 // tNow is the synthetic current time used as now during testing.

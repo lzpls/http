@@ -10,12 +10,13 @@ import (
 	"bytes"
 	"context"
 	"errors"
-	"github.com/metacubex/http/internal/testcert"
-	"github.com/metacubex/tls"
 	"io"
 	"net"
 	"strings"
 	"testing"
+
+	"github.com/lzpls/http/internal/testcert"
+	"github.com/lzpls/tls"
 )
 
 // Issue 15446: incorrect wrapping of errors when server closes an idle connection.

@@ -12,10 +12,10 @@
 //
 // To use pprof, link this package into your program:
 //
-//	import _ "github.com/metacubex/http/pprof"
+//	import _ "github.com/lzpls/http/pprof"
 //
 // If your application is not already running an http server, you
-// need to start one. Add "github.com/metacubex/http" and "log" to your imports and
+// need to start one. Add "github.com/lzpls/http" and "log" to your imports and
 // the following code to your main function:
 //
 //	go func() {
@@ -89,7 +89,7 @@ import (
 	"time"
 
 	"github.com/google/pprof/profile"
-	"github.com/metacubex/http"
+	"github.com/lzpls/http"
 )
 
 func init() {

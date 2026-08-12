@@ -20,9 +20,9 @@ import (
 
 	"golang.org/x/exp/maps"
 
-	"github.com/metacubex/http/httptrace"
-	"github.com/metacubex/http/internal"
-	"github.com/metacubex/http/internal/ascii"
+	"github.com/lzpls/http/httptrace"
+	"github.com/lzpls/http/internal"
+	"github.com/lzpls/http/internal/ascii"
 
 	"golang.org/x/net/http/httpguts"
 )

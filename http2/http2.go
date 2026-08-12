@@ -11,7 +11,7 @@
 // requires Go 1.6 or later)
 //
 // See https://http2.github.io/ for more information on HTTP/2.
-package http2 // import "github.com/metacubex/http/http2"
+package http2 // import "github.com/lzpls/http/http2"
 
 import (
 	"bufio"
@@ -25,8 +25,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/metacubex/http"
-	"github.com/metacubex/tls"
+	"github.com/lzpls/http"
+	"github.com/lzpls/tls"
 
 	"golang.org/x/net/http/httpguts"
 )

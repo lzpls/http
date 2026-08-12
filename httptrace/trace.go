@@ -8,11 +8,12 @@ package httptrace
 
 import (
 	"context"
-	"github.com/metacubex/tls"
 	"net"
 	"net/textproto"
 	"reflect"
 	"time"
+
+	"github.com/lzpls/tls"
 )
 
 // unique type to prevent assignment.

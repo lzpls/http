@@ -46,9 +46,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/metacubex/http"
-	"github.com/metacubex/http/internal/httpcommon"
-	"github.com/metacubex/tls"
+	"github.com/lzpls/http"
+	"github.com/lzpls/http/internal/httpcommon"
+	"github.com/lzpls/tls"
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/http2/hpack"
 )

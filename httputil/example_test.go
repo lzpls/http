@@ -6,13 +6,14 @@ package httputil_test
 
 import (
 	"fmt"
-	"github.com/metacubex/http"
-	"github.com/metacubex/http/httptest"
-	"github.com/metacubex/http/httputil"
 	"io"
 	"log"
 	"net/url"
 	"strings"
+
+	"github.com/lzpls/http"
+	"github.com/lzpls/http/httptest"
+	"github.com/lzpls/http/httputil"
 )
 
 func ExampleDumpRequest() {

@@ -6,10 +6,11 @@ package httptest_test
 
 import (
 	"fmt"
-	"github.com/metacubex/http"
-	"github.com/metacubex/http/httptest"
 	"io"
 	"log"
+
+	"github.com/lzpls/http"
+	"github.com/lzpls/http/httptest"
 )
 
 func ExampleResponseRecorder() {

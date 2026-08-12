@@ -1,10 +1,10 @@
-module github.com/metacubex/http
+module github.com/lzpls/http
 
 go 1.20
 
 require (
 	github.com/google/pprof v0.0.0-20240727154555-813a5fbdbec8
-	github.com/metacubex/tls v0.1.0
+	github.com/lzpls/tls v1.0.1
 	golang.org/x/exp v0.0.0-20240904232852-e7e105dedf7e
 	golang.org/x/net v0.35.0
 )

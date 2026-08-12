@@ -9,12 +9,13 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"github.com/metacubex/http"
 	"io"
 	"net"
 	"net/url"
 	"strings"
 	"time"
+
+	"github.com/lzpls/http"
 )
 
 // drainBody reads all of b to memory and then returns two equivalent

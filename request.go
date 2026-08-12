@@ -13,10 +13,6 @@ import (
 	"encoding/base64"
 	"errors"
 	"fmt"
-	"github.com/metacubex/http/httptrace"
-	"github.com/metacubex/http/internal/ascii"
-	"github.com/metacubex/tls"
-	"golang.org/x/exp/maps"
 	"io"
 	"mime"
 	"mime/multipart"
@@ -27,6 +23,11 @@ import (
 	"strings"
 	"sync"
 	_ "unsafe" // for linkname
+
+	"github.com/lzpls/http/httptrace"
+	"github.com/lzpls/http/internal/ascii"
+	"github.com/lzpls/tls"
+	"golang.org/x/exp/maps"
 
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/idna"

@@ -10,7 +10,6 @@ import (
 	"expvar"
 	"flag"
 	"fmt"
-	"github.com/metacubex/http"
 	"io"
 	"log"
 	"os"
@@ -18,6 +17,8 @@ import (
 	"strconv"
 	"strings"
 	"sync"
+
+	"github.com/lzpls/http"
 )
 
 // hello world, the web server

@@ -8,7 +8,7 @@ import (
 	"errors"
 	"net"
 
-	"github.com/metacubex/http"
+	"github.com/lzpls/http"
 )
 
 const nextProtoUnencryptedHTTP2 = "unencrypted_http2"

@@ -7,13 +7,14 @@ package http_test
 import (
 	"bytes"
 	"fmt"
-	. "github.com/metacubex/http"
-	"golang.org/x/exp/slices"
 	"io"
 	"log"
 	"strconv"
 	"strings"
 	"testing"
+
+	. "github.com/lzpls/http"
+	"golang.org/x/exp/slices"
 )
 
 var sniffTests = []struct {

@@ -6,11 +6,12 @@ package cookiejar_test
 
 import (
 	"fmt"
-	"github.com/metacubex/http"
-	"github.com/metacubex/http/cookiejar"
-	"github.com/metacubex/http/httptest"
 	"log"
 	"net/url"
+
+	"github.com/lzpls/http"
+	"github.com/lzpls/http/cookiejar"
+	"github.com/lzpls/http/httptest"
 )
 
 func ExampleNew() {

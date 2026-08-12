@@ -10,7 +10,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/metacubex/http"
+	"github.com/lzpls/http"
 )
 
 func TestTransportNewClientConnRoundTrip(t *testing.T) { run(t, testTransportNewClientConnRoundTrip) }

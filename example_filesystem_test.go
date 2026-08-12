@@ -5,11 +5,12 @@
 package http_test
 
 import (
-	"github.com/metacubex/http"
 	"io"
 	"io/fs"
 	"log"
 	"strings"
+
+	"github.com/lzpls/http"
 )
 
 // containsDotFile reports whether name contains a path element starting with a period.

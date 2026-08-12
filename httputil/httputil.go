@@ -7,8 +7,9 @@
 package httputil
 
 import (
-	"github.com/metacubex/http/internal"
 	"io"
+
+	"github.com/lzpls/http/internal"
 )
 
 // NewChunkedReader returns a new chunkedReader that translates the data read from r

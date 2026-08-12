@@ -12,10 +12,6 @@ import (
 	"encoding/base64"
 	"encoding/json"
 	"fmt"
-	"github.com/metacubex/http"
-	. "github.com/metacubex/http"
-	"github.com/metacubex/http/httptest"
-	"golang.org/x/exp/slices"
 	"io"
 	"math"
 	"mime/multipart"
@@ -25,6 +21,11 @@ import (
 	"regexp"
 	"strings"
 	"testing"
+
+	"github.com/lzpls/http"
+	. "github.com/lzpls/http"
+	"github.com/lzpls/http/httptest"
+	"golang.org/x/exp/slices"
 )
 
 func TestQuery(t *testing.T) {

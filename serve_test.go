@@ -16,8 +16,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/metacubex/tls"
-	"golang.org/x/exp/slices"
 	"io"
 	"log"
 	"math/rand"
@@ -35,12 +33,15 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/metacubex/http"
-	"github.com/metacubex/http/httptest"
-	"github.com/metacubex/http/httptrace"
-	"github.com/metacubex/http/httputil"
-	"github.com/metacubex/http/internal"
-	"github.com/metacubex/http/internal/testcert"
+	"github.com/lzpls/tls"
+	"golang.org/x/exp/slices"
+
+	. "github.com/lzpls/http"
+	"github.com/lzpls/http/httptest"
+	"github.com/lzpls/http/httptrace"
+	"github.com/lzpls/http/httputil"
+	"github.com/lzpls/http/internal"
+	"github.com/lzpls/http/internal/testcert"
 )
 
 type dummyAddr string

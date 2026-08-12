@@ -26,9 +26,6 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"github.com/metacubex/http/httptrace"
-	"github.com/metacubex/http/internal/httpcommon"
-	"github.com/metacubex/tls"
 	"io"
 	"io/fs"
 	"log"
@@ -47,6 +44,10 @@ import (
 	"sync"
 	"sync/atomic"
 	"time"
+
+	"github.com/lzpls/http/httptrace"
+	"github.com/lzpls/http/internal/httpcommon"
+	"github.com/lzpls/tls"
 
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/http2/hpack"

@@ -7,13 +7,14 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/metacubex/http/httptrace"
 	"net/textproto"
 	"net/url"
 	"sort"
 	"strconv"
 	"strings"
 	"sync"
+
+	"github.com/lzpls/http/httptrace"
 
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/http2/hpack"

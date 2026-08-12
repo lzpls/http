@@ -6,8 +6,6 @@ package http_test
 
 import (
 	"fmt"
-	"github.com/metacubex/http"
-	"golang.org/x/exp/slices"
 	"io"
 	"log"
 	"os"
@@ -15,6 +13,9 @@ import (
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/lzpls/http"
+	"golang.org/x/exp/slices"
 )
 
 var quietLog = log.New(io.Discard, "", 0)

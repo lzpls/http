@@ -13,10 +13,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/metacubex/http"
-	"github.com/metacubex/http/http2"
-	"github.com/metacubex/http/httptest"
-	"github.com/metacubex/tls"
+	"github.com/lzpls/http"
+	"github.com/lzpls/http/http2"
+	"github.com/lzpls/http/httptest"
+	"github.com/lzpls/tls"
 )
 
 func ExampleNewHandler() {

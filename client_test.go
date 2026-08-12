@@ -12,7 +12,6 @@ import (
 	"encoding/base64"
 	"errors"
 	"fmt"
-	"github.com/metacubex/tls"
 	"io"
 	"log"
 	"net"
@@ -26,9 +25,11 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/metacubex/http"
-	"github.com/metacubex/http/cookiejar"
-	"github.com/metacubex/http/httptest"
+	"github.com/lzpls/tls"
+
+	. "github.com/lzpls/http"
+	"github.com/lzpls/http/cookiejar"
+	"github.com/lzpls/http/httptest"
 )
 
 var robotsTxtHandler = HandlerFunc(func(w ResponseWriter, r *Request) {

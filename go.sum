@@ -1,5 +1,7 @@
 github.com/google/pprof v0.0.0-20240727154555-813a5fbdbec8 h1:FKHo8hFI3A+7w0aUQuYXQ+6EN5stWmeY/AZqtM8xk9k=
 github.com/google/pprof v0.0.0-20240727154555-813a5fbdbec8/go.mod h1:K1liHPHnj73Fdn/EKuT8nrFqBihUSKXoLYU0BuatOYo=
+github.com/lzpls/tls v1.0.1 h1:LrmdBECLDAQ/WmErnBX6VnLPOKbGpvETi85i18rS1cE=
+github.com/lzpls/tls v1.0.1/go.mod h1:p/fmWEMhre+5h8wShrZTzgSGrBizfbYOXrWHCy7QZK0=
 github.com/metacubex/cpu v0.1.0 h1:8PeTdV9j6UKbN1K5Jvtbi/Jock7dknvzyYuLb8Conmk=
 github.com/metacubex/cpu v0.1.0/go.mod h1:09VEt4dSRLR+bOA8l4w4NDuzGZ8n5dkMv7e8axgEeTU=
 github.com/metacubex/hkdf v0.1.0 h1:fPA6VzXK8cU1foc/TOmGCDmSa7pZbxlnqhl3RNsthaA=
@@ -8,8 +10,6 @@ github.com/metacubex/hpke v0.1.0 h1:gu2jUNhraehWi0P/z5HX2md3d7L1FhPQE6/Q0E9r9xQ=
 github.com/metacubex/hpke v0.1.0/go.mod h1:vfDm6gfgrwlXUxKDkWbcE44hXtmc1uxLDm2BcR11b3U=
 github.com/metacubex/mlkem v0.1.0 h1:wFClitonSFcmipzzQvax75beLQU+D7JuC+VK1RzSL8I=
 github.com/metacubex/mlkem v0.1.0/go.mod h1:amhaXZVeYNShuy9BILcR7P0gbeo/QLZsnqCdL8U2PDQ=
-github.com/metacubex/tls v0.1.0 h1:1kjR/1q2uU1cZIwiHYEnWzS4L+0Cu1/X3yfIQ76BzNY=
-github.com/metacubex/tls v0.1.0/go.mod h1:0XeVdL0cBw+8i5Hqy3lVeP9IyD/LFTq02ExvHM6rzEM=
 golang.org/x/crypto v0.33.0 h1:IOBPskki6Lysi0lo9qQvbxiQ+FvsCC/YWOecCHAixus=
 golang.org/x/crypto v0.33.0/go.mod h1:bVdXmD7IV/4GdElGPozy6U7lWdRXA4qyRVGJV57uQ5M=
 golang.org/x/exp v0.0.0-20240904232852-e7e105dedf7e h1:I88y4caeGeuDQxgdoFPUq097j7kNfw6uvuiNxUBfcBk=

@@ -7,11 +7,12 @@ package httputil
 import (
 	"bufio"
 	"errors"
-	"github.com/metacubex/http"
 	"io"
 	"net"
 	"net/textproto"
 	"sync"
+
+	"github.com/lzpls/http"
 )
 
 var (

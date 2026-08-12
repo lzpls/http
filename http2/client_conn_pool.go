@@ -12,7 +12,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/metacubex/http"
+	"github.com/lzpls/http"
 )
 
 // ClientConnPool manages a pool of HTTP/2 client connections.

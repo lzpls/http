@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/metacubex/http/internal/ascii"
+	"github.com/lzpls/http/internal/ascii"
 )
 
 // A Cookie represents an HTTP cookie as sent in the Set-Cookie header of an

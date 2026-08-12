@@ -9,7 +9,6 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/metacubex/http"
 	"io"
 	"math/rand"
 	"net/url"
@@ -18,6 +17,8 @@ import (
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/lzpls/http"
 )
 
 type eofReader struct{}

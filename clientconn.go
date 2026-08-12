@@ -8,10 +8,11 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/metacubex/http/httptrace"
 	"net"
 	"net/url"
 	"sync"
+
+	"github.com/lzpls/http/httptrace"
 )
 
 // A ClientConn is a client connection to an HTTP server.

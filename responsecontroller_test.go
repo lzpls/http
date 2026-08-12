@@ -7,12 +7,13 @@ package http_test
 import (
 	"errors"
 	"fmt"
-	. "github.com/metacubex/http"
 	"io"
 	"os"
 	"sync"
 	"testing"
 	"time"
+
+	. "github.com/lzpls/http"
 )
 
 func TestResponseControllerFlush(t *testing.T) { run(t, testResponseControllerFlush) }

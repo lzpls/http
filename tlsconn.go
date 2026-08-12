@@ -2,8 +2,9 @@ package http
 
 import (
 	"context"
-	"github.com/metacubex/tls"
 	"net"
+
+	"github.com/lzpls/tls"
 )
 
 type TLSConn interface {

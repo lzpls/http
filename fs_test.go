@@ -28,9 +28,9 @@ import (
 
 	"golang.org/x/exp/slices"
 
-	"github.com/metacubex/http"
-	. "github.com/metacubex/http"
-	"github.com/metacubex/http/httptest"
+	"github.com/lzpls/http"
+	. "github.com/lzpls/http"
+	"github.com/lzpls/http/httptest"
 )
 
 const (

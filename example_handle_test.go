@@ -6,9 +6,10 @@ package http_test
 
 import (
 	"fmt"
-	"github.com/metacubex/http"
 	"log"
 	"sync"
+
+	"github.com/lzpls/http"
 )
 
 type countHandler struct {

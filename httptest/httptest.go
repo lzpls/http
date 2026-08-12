@@ -12,8 +12,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/metacubex/http"
-	"github.com/metacubex/tls"
+	"github.com/lzpls/http"
+	"github.com/lzpls/tls"
 )
 
 // NewRequest wraps NewRequestWithContext using context.Background.

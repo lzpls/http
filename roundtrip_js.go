@@ -9,12 +9,13 @@ package http
 import (
 	"errors"
 	"fmt"
-	"github.com/metacubex/http/internal/ascii"
 	"io"
 	"net/url"
 	"strconv"
 	"strings"
 	"syscall/js"
+
+	"github.com/lzpls/http/internal/ascii"
 )
 
 var uint8Array = js.Global().Get("Uint8Array")

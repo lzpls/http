@@ -21,9 +21,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/metacubex/http"
-	"github.com/metacubex/http/httptrace"
-	"github.com/metacubex/http/internal/ascii"
+	"github.com/lzpls/http"
+	"github.com/lzpls/http/httptrace"
+	"github.com/lzpls/http/internal/ascii"
 
 	"golang.org/x/net/http/httpguts"
 )

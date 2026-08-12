@@ -12,11 +12,6 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/metacubex/http"
-	"github.com/metacubex/http/httptest"
-	"github.com/metacubex/http/httptrace"
-	"github.com/metacubex/http/internal/ascii"
-	"golang.org/x/exp/slices"
 	"io"
 	"log"
 	"net"
@@ -30,6 +25,12 @@ import (
 	"sync"
 	"testing"
 	"time"
+
+	"github.com/lzpls/http"
+	"github.com/lzpls/http/httptest"
+	"github.com/lzpls/http/httptrace"
+	"github.com/lzpls/http/internal/ascii"
+	"golang.org/x/exp/slices"
 )
 
 const fakeHopHeader = "X-Fake-Hop-Header-For-Test"

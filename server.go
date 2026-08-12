@@ -12,7 +12,6 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/metacubex/tls"
 	"io"
 	"log"
 	"math/rand"
@@ -29,6 +28,8 @@ import (
 	"sync/atomic"
 	"time"
 	_ "unsafe" // for linkname
+
+	"github.com/lzpls/tls"
 
 	"golang.org/x/exp/maps"
 	"golang.org/x/exp/slices"

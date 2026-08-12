@@ -8,7 +8,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/metacubex/http"
+	"github.com/lzpls/http"
 )
 
 // http2Config is a package-internal version of net/http.HTTP2Config.

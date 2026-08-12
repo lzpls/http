@@ -11,15 +11,16 @@ import (
 	"crypto/x509"
 	"flag"
 	"fmt"
-	"github.com/metacubex/http"
-	"github.com/metacubex/http/internal/testcert"
-	"github.com/metacubex/tls"
 	"log"
 	"net"
 	"os"
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/lzpls/http"
+	"github.com/lzpls/http/internal/testcert"
+	"github.com/lzpls/tls"
 )
 
 // A Server is an HTTP server listening on a system-chosen port on the

@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	filepathlite "github.com/metacubex/http/internal/filepath"
+	filepathlite "github.com/lzpls/http/internal/filepath"
 )
 
 // A Dir implements [FileSystem] using the native file system restricted to a

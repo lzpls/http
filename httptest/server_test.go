@@ -6,11 +6,12 @@ package httptest
 
 import (
 	"bufio"
-	"github.com/metacubex/http"
 	"io"
 	"net"
 	"sync"
 	"testing"
+
+	"github.com/lzpls/http"
 )
 
 type newServerFunc func(http.Handler) *Server

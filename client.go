@@ -14,7 +14,6 @@ import (
 	"encoding/base64"
 	"errors"
 	"fmt"
-	"github.com/metacubex/tls"
 	"io"
 	"log"
 	"net/url"
@@ -25,7 +24,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/metacubex/http/internal/ascii"
+	"github.com/lzpls/tls"
+
+	"github.com/lzpls/http/internal/ascii"
 )
 
 // A Client is an HTTP client. Its zero value ([DefaultClient]) is a

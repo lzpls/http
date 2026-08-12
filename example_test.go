@@ -7,12 +7,13 @@ package http_test
 import (
 	"context"
 	"fmt"
-	"github.com/metacubex/http"
 	"io"
 	"log"
 	"os"
 	"os/signal"
 	"time"
+
+	"github.com/lzpls/http"
 )
 
 func ExampleHijacker() {

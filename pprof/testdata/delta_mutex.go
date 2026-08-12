@@ -15,11 +15,12 @@ package main
 import (
 	"bytes"
 	"fmt"
-	"github.com/metacubex/http"
-	"github.com/metacubex/http/httptest"
-	"github.com/metacubex/http/pprof"
 	"log"
 	"runtime"
+
+	"github.com/lzpls/http"
+	"github.com/lzpls/http/httptest"
+	"github.com/lzpls/http/pprof"
 )
 
 func main() {

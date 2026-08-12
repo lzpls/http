@@ -8,9 +8,10 @@ package cookiejar
 
 import (
 	"fmt"
-	"github.com/metacubex/http/internal/ascii"
 	"strings"
 	"unicode/utf8"
+
+	"github.com/lzpls/http/internal/ascii"
 )
 
 // These parameter values are specified in section 5.

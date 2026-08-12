@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/metacubex/http"
-	"github.com/metacubex/http/httptest"
+	"github.com/lzpls/http"
+	"github.com/lzpls/http/httptest"
 )
 
 // httptestNewRequest works around https://go.dev/issue/73151.

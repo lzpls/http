@@ -13,7 +13,7 @@ import (
 	"os"
 	"sort"
 
-	"github.com/metacubex/http/http2/hpack"
+	"github.com/lzpls/http/http2/hpack"
 )
 
 // http://tools.ietf.org/html/draft-ietf-httpbis-header-compression-07#appendix-B

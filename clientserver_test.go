@@ -13,9 +13,6 @@ import (
 	"crypto/rand"
 	"crypto/sha1"
 	"fmt"
-	"github.com/metacubex/tls"
-	"golang.org/x/exp/maps"
-	"golang.org/x/exp/slices"
 	"hash"
 	"io"
 	"log"
@@ -31,10 +28,14 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/metacubex/http"
-	"github.com/metacubex/http/httptest"
-	"github.com/metacubex/http/httptrace"
-	"github.com/metacubex/http/httputil"
+	"github.com/lzpls/tls"
+	"golang.org/x/exp/maps"
+	"golang.org/x/exp/slices"
+
+	. "github.com/lzpls/http"
+	"github.com/lzpls/http/httptest"
+	"github.com/lzpls/http/httptrace"
+	"github.com/lzpls/http/httputil"
 )
 
 type testMode string

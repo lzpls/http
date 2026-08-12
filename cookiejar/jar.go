@@ -8,8 +8,6 @@ package cookiejar
 import (
 	"errors"
 	"fmt"
-	"github.com/metacubex/http"
-	"github.com/metacubex/http/internal/ascii"
 	"net"
 	"net/netip"
 	"net/url"
@@ -17,6 +15,9 @@ import (
 	"strings"
 	"sync"
 	"time"
+
+	"github.com/lzpls/http"
+	"github.com/lzpls/http/internal/ascii"
 )
 
 // PublicSuffixList provides the public suffix of a domain. For example:

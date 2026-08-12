@@ -12,8 +12,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/metacubex/http"
-	"github.com/metacubex/tls"
+	"github.com/lzpls/http"
+	"github.com/lzpls/tls"
 )
 
 func TestNewRequest(t *testing.T) {

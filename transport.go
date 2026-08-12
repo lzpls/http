@@ -17,8 +17,6 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/metacubex/tls"
-	"golang.org/x/exp/maps"
 	"io"
 	"log"
 	"net"
@@ -31,8 +29,11 @@ import (
 	"time"
 	_ "unsafe"
 
-	"github.com/metacubex/http/httptrace"
-	"github.com/metacubex/http/internal/ascii"
+	"github.com/lzpls/tls"
+	"golang.org/x/exp/maps"
+
+	"github.com/lzpls/http/httptrace"
+	"github.com/lzpls/http/internal/ascii"
 
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/http/httpproxy"

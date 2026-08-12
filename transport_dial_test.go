@@ -10,8 +10,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/metacubex/http"
-	"github.com/metacubex/http/httptrace"
+	"github.com/lzpls/http"
+	"github.com/lzpls/http/httptrace"
 )
 
 func TestTransportPoolConnReusePriorConnection(t *testing.T) {

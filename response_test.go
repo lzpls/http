@@ -10,7 +10,6 @@ import (
 	"compress/gzip"
 	"crypto/rand"
 	"fmt"
-	"github.com/metacubex/http/internal"
 	"go/token"
 	"io"
 	"net/url"
@@ -18,6 +17,8 @@ import (
 	"regexp"
 	"strings"
 	"testing"
+
+	"github.com/lzpls/http/internal"
 )
 
 type respTest struct {

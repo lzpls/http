@@ -7,15 +7,16 @@ package h2c
 import (
 	"context"
 	"fmt"
-	"github.com/metacubex/tls"
 	"io"
 	"log"
 	"net"
 	"strings"
 	"testing"
 
-	"github.com/metacubex/http"
-	"github.com/metacubex/http/httptest"
+	"github.com/lzpls/tls"
+
+	"github.com/lzpls/http"
+	"github.com/lzpls/http/httptest"
 )
 
 func ExampleNewHandler() {

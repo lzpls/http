@@ -21,7 +21,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/metacubex/http"
+	"github.com/lzpls/http"
 
 	"golang.org/x/net/http/httpguts"
 )
