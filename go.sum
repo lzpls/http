@@ -1,7 +1,7 @@
 github.com/google/pprof v0.0.0-20240727154555-813a5fbdbec8 h1:FKHo8hFI3A+7w0aUQuYXQ+6EN5stWmeY/AZqtM8xk9k=
 github.com/google/pprof v0.0.0-20240727154555-813a5fbdbec8/go.mod h1:K1liHPHnj73Fdn/EKuT8nrFqBihUSKXoLYU0BuatOYo=
-github.com/lzpls/tls v1.0.1 h1:LrmdBECLDAQ/WmErnBX6VnLPOKbGpvETi85i18rS1cE=
-github.com/lzpls/tls v1.0.1/go.mod h1:p/fmWEMhre+5h8wShrZTzgSGrBizfbYOXrWHCy7QZK0=
+github.com/lzpls/tls v1.1.1 h1:SDJO6900YvrArmHBJDKC0EfBlDBXpagDpM+WsQE+enQ=
+github.com/lzpls/tls v1.1.1/go.mod h1:p/fmWEMhre+5h8wShrZTzgSGrBizfbYOXrWHCy7QZK0=
 github.com/metacubex/cpu v0.1.0 h1:8PeTdV9j6UKbN1K5Jvtbi/Jock7dknvzyYuLb8Conmk=
 github.com/metacubex/cpu v0.1.0/go.mod h1:09VEt4dSRLR+bOA8l4w4NDuzGZ8n5dkMv7e8axgEeTU=
 github.com/metacubex/hkdf v0.1.0 h1:fPA6VzXK8cU1foc/TOmGCDmSa7pZbxlnqhl3RNsthaA=
